@@ -1,0 +1,17 @@
+{
+  "name": "wgcl-traffic-tweets",
+  "version": "0.0.1",
+  "description": "Sends traffic tweets to given twitter account using MAX Traffic api.",
+  "main": "traffic-parse.php",
+  "dependencies": {
+    "async": "^1.5.0",
+    "lodash": "^3.10.1",
+    "twit": "^2.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonathanimo",
+  "license": "ISC"
+}

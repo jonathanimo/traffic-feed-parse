@@ -1,0 +1,8 @@
+{
+    "require": {
+        "jamesmoss/flywheel": "^0.4.2",
+        "fightbulc/moment": "^1.18",
+         "nmcteam/image-with-text": "^2.0",
+        "abraham/twitteroauth": "^0.5.4"
+    }
+}

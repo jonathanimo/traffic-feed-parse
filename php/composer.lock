@@ -1,0 +1,340 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "783034342f0ace02ee3bb370b5fb266c",
+    "content-hash": "09ea37864f5b305cbab8e04eb4919bb2",
+    "packages": [
+        {
+            "name": "abraham/twitteroauth",
+            "version": "0.5.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/abraham/twitteroauth.git",
+                "reference": "1c05f38b7780c9e6d3938b3f2ac2f3fd9d810825"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/abraham/twitteroauth/zipball/1c05f38b7780c9e6d3938b3f2ac2f3fd9d810825",
+                "reference": "1c05f38b7780c9e6d3938b3f2ac2f3fd9d810825",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpmd/phpmd": "2.2.*",
+                "phpunit/phpunit": "4.7.*",
+                "squizlabs/php_codesniffer": "2.3.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Abraham\\TwitterOAuth\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Abraham Williams",
+                    "email": "abraham@abrah.am",
+                    "homepage": "https://abrah.am",
+                    "role": "Developer"
+                }
+            ],
+            "description": "The most popular PHP library for use with the Twitter OAuth REST API.",
+            "homepage": "https://twitteroauth.com",
+            "keywords": [
+                "Twitter API",
+                "Twitter oAuth",
+                "api",
+                "oauth",
+                "rest",
+                "social",
+                "twitter"
+            ],
+            "time": "2015-08-18 15:56:04"
+        },
+        {
+            "name": "fightbulc/moment",
+            "version": "1.18.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fightbulc/moment.php.git",
+                "reference": "450e846744be64de5908c74d30b25b2a955ea9c0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fightbulc/moment.php/zipball/450e846744be64de5908c74d30b25b2a955ea9c0",
+                "reference": "450e846744be64de5908c74d30b25b2a955ea9c0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Moment\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ashish Tilara",
+                    "email": "ashish@itcutives.com",
+                    "role": "developer"
+                },
+                {
+                    "name": "Jaroslaw Kozak",
+                    "email": "jaroslaw.kozak68@gmail.com",
+                    "role": "developer"
+                },
+                {
+                    "name": "Tino Ehrich",
+                    "email": "tino@bigpun.me",
+                    "role": "developer"
+                }
+            ],
+            "description": "Parse, validate, manipulate, and display dates in PHP w/ i18n support. Inspired by moment.js",
+            "keywords": [
+                "date",
+                "display",
+                "format",
+                "i18n",
+                "locale",
+                "manipulate",
+                "moment",
+                "parse",
+                "time",
+                "translation",
+                "validate"
+            ],
+            "time": "2016-03-08 15:15:49"
+        },
+        {
+            "name": "illuminate/support",
+            "version": "v4.2.17",
+            "target-dir": "Illuminate/Support",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/illuminate/support.git",
+                "reference": "db61f3f6d507ce417ca993e1f93585db7efd8b12"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/db61f3f6d507ce417ca993e1f93585db7efd8b12",
+                "reference": "db61f3f6d507ce417ca993e1f93585db7efd8b12",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "jeremeamia/superclosure": "~1.0.1",
+                "patchwork/utf8": "~1.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Illuminate\\Support": ""
+                },
+                "files": [
+                    "Illuminate/Support/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylorotwell@gmail.com"
+                }
+            ],
+            "time": "2015-01-27 20:51:43"
+        },
+        {
+            "name": "intervention/image",
+            "version": "1.6.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Intervention/image.git",
+                "reference": "432f3b28ea08455146b157c6bfdebf4ef5bc661e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Intervention/image/zipball/432f3b28ea08455146b157c6bfdebf4ef5bc661e",
+                "reference": "432f3b28ea08455146b157c6bfdebf4ef5bc661e",
+                "shasum": ""
+            },
+            "require": {
+                "ext-gd": "*",
+                "illuminate/support": "4.*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.1.*"
+            },
+            "suggest": {
+                "intervention/imagecache": "Caching extension for the Intervention Image library"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Intervention\\Image": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Oliver Vogel",
+                    "email": "oliver@olivervogel.net",
+                    "homepage": "http://olivervogel.net/"
+                }
+            ],
+            "description": "Image handling and manipulation library with support for Laravel 4 integration",
+            "homepage": "http://image.intervention.io/",
+            "keywords": [
+                "gd",
+                "image",
+                "laravel",
+                "thumbnail",
+                "watermark"
+            ],
+            "time": "2014-06-07 16:25:27"
+        },
+        {
+            "name": "jamesmoss/flywheel",
+            "version": "0.4.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jamesmoss/flywheel.git",
+                "reference": "88ee49cd1b1d9689b7a298ce7056aff0a46fbba2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jamesmoss/flywheel/zipball/88ee49cd1b1d9689b7a298ce7056aff0a46fbba2",
+                "reference": "88ee49cd1b1d9689b7a298ce7056aff0a46fbba2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "mikey179/vfsstream": "1.2.0",
+                "mockery/mockery": "dev-master@dev",
+                "mustangostang/spyc": "0.5.*@dev",
+                "phpunit/phpunit": "3.7.*"
+            },
+            "suggest": {
+                "mustangostang/spyc": "You must install this if you're using the YAML or Markdown formatters."
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "JamesMoss\\Flywheel\\": [
+                        "src/",
+                        "test/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "James Moss",
+                    "email": "james@moss.io",
+                    "homepage": "http://moss.io"
+                }
+            ],
+            "description": "A lightweight, flat-file, document database",
+            "homepage": "http://github.com/jamesmoss/flywheel",
+            "keywords": [
+                "db",
+                "document",
+                "file",
+                "flat"
+            ],
+            "time": "2016-02-24 19:56:55"
+        },
+        {
+            "name": "nmcteam/image-with-text",
+            "version": "2.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nmcteam/image-with-text.git",
+                "reference": "51f6442d8d80278ddca5462f766de4477812aaf4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nmcteam/image-with-text/zipball/51f6442d8d80278ddca5462f766de4477812aaf4",
+                "reference": "51f6442d8d80278ddca5462f766de4477812aaf4",
+                "shasum": ""
+            },
+            "require": {
+                "intervention/image": "~1.0",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "NMC": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Josh Lockhart",
+                    "email": "josh@newmediacampaigns.com",
+                    "homepage": "http://www.newmediacampaigns.com/"
+                }
+            ],
+            "description": "Create images with embedded text and advanced typography",
+            "homepage": "http://github.com/nmcteam/image-with-text",
+            "keywords": [
+                "gd",
+                "image",
+                "text",
+                "typeset",
+                "typography",
+                "write"
+            ],
+            "time": "2013-11-20 18:03:41"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
