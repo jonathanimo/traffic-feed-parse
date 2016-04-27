@@ -27,8 +27,8 @@
 		$end = new \Moment\Moment($inc->endTimeUtc);
 		// $startMoment = "'" . $start->subtractHours(4)->format('Y-m-d h:i A.') . "'";
 		// $endMoment = "'" . $end->subtractHours(4)->format('Y-m-d h:i A.') . "'";
-		$startMoment = "'" . date_timestamp_get($start) . "'";
-		$endMoment = "'" .  date_timestamp_get($end) . "'";
+		$startMoment = date_timestamp_get($start) ;
+		$endMoment =  date_timestamp_get($end) ;
 		$tweeted = 0;
 		$sevText = "'". $inc->severityText . "'";
 		$roadName = "'". $inc->roadName . "'";

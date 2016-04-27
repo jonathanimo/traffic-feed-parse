@@ -72,7 +72,17 @@ h2 span.dir{
 
 		$road = $row['ROADNAME'];
 
-		echo '<div class="trafficIncident"><h2 class="header ' . $sevText . '"><span class="time until"> Reported: ' . $startRel->getRelative() . '</span><span class="roadName">' . $road . '</span><span class="dir"> ' . $row['DIRECTION'] . ' </span><span class="time since"> Expected clear: ' . $endRel->getRelative() . ' </span></h2> <p>' . $row['FULLDESC'] . '</p></div>';
+		echo '<div class="trafficIncident"><h2 class="header ' . $sevText . '"><span class="time until"> Reported: ' . $startRel->getRelative() . '</span><span class="roadName">' . $road . '</span><span class="dir"> ' . $row['DIRECTION'] . ' </span><span class="time since"> Expected clear: ' . $endRel->getRelative() . ' </span></h2> <p>' . $row['FULLDESC'] . '</p>
+		<a class="twitter-share-button"
+			href="https://twitter.com/share"
+		  	data-size="large"
+			data-url="http://www.cbs46.com/category/209305/traffic"
+			data-via="cbs46Traffic"
+			data-related="cbs46,loznickacbs46"
+			data-hashtags="#ATLTraffic"
+			data-text="' . $row['SHORTDESC'] . '">
+			Tweet
+		</a></div>';
 	}
 	?>	
 
